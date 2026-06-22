@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 7 — Extracción de características estadísticas y frecuenciales
+title: Percepción Computacional — Semana 7 — Extracción y análisis de características
 favicon: /favicon.png
 codeCopy: true
 transition: fade

@@ -1,6 +1,6 @@
 ---
-layout: slide-01-portada
----
+
+## layout: slide-01-portada
 
 ::title::
 {{COURSE_NAME}}
@@ -12,166 +12,374 @@ Semana {{WEEK_NUMBER}} — {{WEEK_TITLE}}
 {{WEEK_DATE}}
 
 ---
-layout: slide-09-objetivos
----
+
+## layout: slide-02-titulo
 
 ::title::
-Objetivos de la sesión
+Ruta de la Open Class
+
+---
+
+## layout: slide-08-titulo-texto
+
+::title::
+Contexto de la semana
 
 ::content::
-Al terminar esta sesión, el estudiante estará en capacidad de:
+Esta sesión aborda el tema **{{WEEK_THEME}}** desde una perspectiva aplicada, académica y profesional.
 
-- Reconocer los conceptos centrales asociados con **{{WEEK_TITLE}}**.
-- Relacionar la temática de la semana con situaciones académicas, profesionales o institucionales.
-- Desarrollar una actividad breve que evidencie comprensión, análisis y aplicación.
-
-<!--
-Notas del presentador:
-Presentar los objetivos como una ruta de trabajo. Conectar cada objetivo con la actividad o evaluación de la semana para que el estudiante comprenda el sentido formativo de la sesión.
--->
+La intención es que el estudiante relacione los conceptos centrales de la semana con situaciones reales del campo disciplinar, identifique problemas, analice alternativas y proponga decisiones fundamentadas.
 
 ---
-layout: slide-08-titulo-texto
----
+
+## layout: slide-09-objetivos
 
 ::title::
-Agenda de la Open Class
+Objetivos de aprendizaje
 
 ::content::
-La sesión se desarrollará en **90 minutos**:
+Al finalizar esta Open Class, el estudiante estará en capacidad de:
 
-- Bienvenida y encuadre inicial.
-- Contextualización de la temática de la semana.
-- Desarrollo conceptual con ejemplos.
-- Actividad didáctica breve.
-- Socialización de hallazgos.
-- Resolución de dudas.
-- Cierre académico y recordatorio de la Encuesta de Percepción Estudiantil.
-
-<!--
-Notas del presentador:
-Recordar la tolerancia máxima de cinco minutos para iniciar. Mantener la actividad didáctica en un tiempo máximo aproximado de veinte minutos y reservar un bloque final para preguntas.
--->
+1. Reconocer los conceptos principales asociados con **{{WEEK_THEME}}**.
+2. Analizar una situación aplicada del curso a partir de criterios técnicos y académicos.
+3. Relacionar la teoría con una actividad práctica o evaluativa.
+4. Formular conclusiones que evidencien comprensión, argumentación y transferencia.
 
 ---
-layout: slide-08-titulo-texto
----
+
+## layout: slide-03-imagen-izquierda
 
 ::title::
-Contextualización de la semana
+Lectura inicial del problema
+
+::image:: <img src="/imagenes/favicon.png" alt="Imagen institucional de apoyo" />
 
 ::content::
-Esta semana se aborda **{{WEEK_TITLE}}** como eje para comprender problemas, decisiones y aplicaciones propias del curso.
+En esta sección se presenta una situación inicial que permite introducir el tema de la semana.
 
-**Tema central:** {{WEEK_THEME}}
+La imagen puede reemplazarse por una ilustración del curso ubicada en:
 
-La intención es conectar el contenido con casos reales, experiencias profesionales y criterios de análisis que permitan pasar de la comprensión conceptual a la aplicación práctica.
+`public/imagenes/`
 
-<!--
-Notas del presentador:
-Iniciar con una pregunta detonante o un ejemplo cercano al contexto del grupo. Evitar una exposición únicamente teórica: llevar el tema hacia decisiones, consecuencias, riesgos, oportunidades o productos concretos.
--->
+Ejemplo:
+
+`/imagenes/nombre_de_la_imagen.png`
 
 ---
-layout: slide-10-titulo-dos-columnas
----
+
+## layout: slide-04-imagen-derecha
 
 ::title::
-Desarrollo conceptual
+Análisis del contexto
+
+::content::
+Este layout funciona bien cuando se desea ubicar la explicación conceptual en la parte izquierda y una imagen de apoyo en la parte derecha.
+
+Puedes usarlo para:
+
+* Presentar un caso.
+* Mostrar un diagrama.
+* Explicar un flujo.
+* Relacionar conceptos con una situación profesional.
+
+::image:: <img src="/imagenes/favicon.png" alt="Imagen de apoyo para análisis del contexto" />
+
+---
+
+## layout: slide-05-titulo-superior-texto-derecha
+
+::title::
+Concepto clave de la semana
+
+::image:: <img src="/imagenes/favicon.png" alt="Imagen conceptual de apoyo" />
+
+::content::
+Este layout permite destacar una imagen amplia en la parte izquierda y ubicar la explicación en la parte derecha.
+
+Úsalo cuando la imagen sea el punto de partida del análisis y el texto funcione como interpretación, guía o síntesis.
+
+Ejemplo de uso:
+
+* Arquitectura de un sistema.
+* Mapa conceptual.
+* Flujo de proceso.
+* Escenario problemático.
+* Representación visual de un caso.
+
+---
+
+## layout: slide-06-titulo-superior-texto-izquierda
+
+::title::
+Relación entre teoría y práctica
+
+::content::
+Este layout invierte la organización anterior: el texto queda a la izquierda y la imagen a la derecha.
+
+Es útil cuando primero quieres orientar la lectura conceptual y luego apoyar la explicación con una imagen.
+
+Se recomienda usarlo para:
+
+1. Explicar criterios.
+2. Presentar una secuencia de análisis.
+3. Introducir una práctica guiada.
+4. Preparar al estudiante para una actividad.
+
+::image:: <img src="/imagenes/favicon.png" alt="Imagen de apoyo para teoría y práctica" />
+
+---
+
+## layout: slide-07-multimedia-con-titulo
+
+::title::
+Recurso multimedia de apoyo
+
+::media::
+
+<iframe
+  width="100%"
+  height="100%"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="Recurso multimedia de apoyo"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+---
+
+## layout: slide-08-titulo-texto
+
+::title::
+Síntesis conceptual
+
+::content::
+Utiliza este layout para desarrollar una explicación central sin imágenes.
+
+Ejemplo de estructura sugerida:
+
+* **Idea principal:** presentar el concepto fundamental.
+* **Aplicación:** explicar cómo se observa en un contexto real.
+* **Criterio de análisis:** indicar qué debe observar el estudiante.
+* **Conclusión parcial:** cerrar con una frase que conecte con la actividad.
+
+También puedes usar párrafos breves cuando necesites explicar una idea con mayor profundidad académica.
+
+---
+
+## layout: slide-10-titulo-dos-columnas
+
+::title::
+Comparación de enfoques
 
 ::left::
-**Ideas clave**
 
-- Concepto principal de la semana.
-- Elementos, componentes o criterios asociados.
-- Relación con el propósito del curso.
-- Aplicaciones en contextos reales.
+### Enfoque 1
+
+Este espacio puede usarse para presentar una primera postura, alternativa, componente o criterio de análisis.
+
+* Característica principal.
+* Ventaja.
+* Riesgo o limitación.
+* Ejemplo aplicado.
 
 ::right::
-**Preguntas orientadoras**
 
-- ¿Qué problema permite comprender o resolver este tema?
-- ¿Qué decisiones se pueden tomar a partir de este conocimiento?
-- ¿Qué evidencias muestran que el estudiante comprendió el tema?
+### Enfoque 2
 
-<!--
-Notas del presentador:
-Usar esta diapositiva para organizar la explicación central. Reemplazar los puntos por los conceptos específicos del curso y de la semana.
--->
+Este espacio puede usarse para contrastar una segunda postura, alternativa, componente o criterio.
+
+* Característica principal.
+* Ventaja.
+* Riesgo o limitación.
+* Ejemplo aplicado.
 
 ---
-layout: slide-10-titulo-dos-columnas
----
 
-::title::
-Actividad didáctica breve
+## layout: slide-11-dos-titulos-dos-columnas
+
+::leftTitle::
+Antes del análisis
+
+::rightTitle::
+Después del análisis
 
 ::left::
-**Instrucciones**
+En esta columna puedes describir la situación inicial, las ideas previas, los datos disponibles o las condiciones del problema.
 
-- Organizar el trabajo de forma individual, en parejas o en pequeños grupos.
-- Analizar el caso, pregunta o reto propuesto por el docente.
-- Construir una respuesta breve y justificable.
-- Socializar una conclusión en plenaria.
+Ejemplo:
+
+* Información dispersa.
+* Criterios poco claros.
+* Necesidad de priorización.
+* Dudas frente a la toma de decisiones.
 
 ::right::
-**Producto esperado**
+En esta columna puedes mostrar el resultado esperado después del análisis.
 
-{{WEEK_ACTIVITY}}
+Ejemplo:
 
-La evidencia puede presentarse como una respuesta argumentada, esquema, captura, simulación, reflexión, mapa breve o producto digital, según la orientación del docente.
-
-<!--
-Notas del presentador:
-Controlar el tiempo de la actividad. Se recomienda no superar veinte minutos para conservar espacio de socialización y dudas.
--->
+* Criterios definidos.
+* Decisiones justificadas.
+* Evidencias organizadas.
+* Conclusiones argumentadas.
 
 ---
-layout: slide-08-titulo-texto
----
+
+## layout: slide-codigo
 
 ::title::
-Relación con la evaluación
+Ejemplo técnico guiado
 
 ::content::
-El trabajo de la semana se articula con la actividad o evaluación del curso mediante:
 
-- Comprensión de conceptos clave.
-- Aplicación en un caso o situación práctica.
-- Justificación de decisiones tomadas.
-- Comunicación clara de resultados.
-- Revisión de evidencias y criterios de calidad.
+```python {lines:true}
+# Ejemplo base para reemplazar según el curso
+# Este bloque puede usarse en asignaturas con práctica computacional,
+# análisis de datos, simulación, seguridad, IoT o programación.
 
-<!--
-Notas del presentador:
-Explicar qué debe cuidar el estudiante para avanzar en la actividad evaluativa. Precisar si se requiere entrega en aula virtual, participación en foro, documento, evidencia audiovisual, práctica o cuestionario.
--->
+tema = "{{WEEK_THEME}}"
+actividad = "{{WEEK_ACTIVITY}}"
+
+def presentar_contexto(tema, actividad):
+    print("Tema central:", tema)
+    print("Actividad:", actividad)
+    print("Propósito: relacionar teoría, práctica y análisis crítico.")
+
+presentar_contexto(tema, actividad)
+```
 
 ---
-layout: slide-08-titulo-texto
----
+
+## layout: slide-08-titulo-texto
 
 ::title::
-Resolución de dudas
+Actividad de aplicación
 
 ::content::
-Este espacio se orienta a resolver inquietudes sobre:
+**{{WEEK_ACTIVITY}}**
 
-- Conceptos revisados durante la sesión.
-- Actividad práctica o evaluación relacionada.
-- Criterios de entrega y evidencias esperadas.
-- Uso de herramientas, recursos o materiales de apoyo.
+Orientaciones sugeridas:
 
-<!--
-Notas del presentador:
-Mantener este bloque dentro de un máximo aproximado de quince minutos. Priorizar dudas que afecten la comprensión del tema o la entrega de la actividad.
--->
+1. Leer la situación propuesta por el docente.
+2. Identificar los conceptos de la semana presentes en el caso.
+3. Analizar alternativas de solución o interpretación.
+4. Socializar una conclusión breve con argumentos.
+5. Relacionar la actividad con la evidencia o evaluación correspondiente.
+
+Duración estimada: **{{WEEK_DURATION}}**.
 
 ---
-layout: slide-12-cierre
+
+## layout: slide-10-titulo-dos-columnas
+
+::title::
+Preguntas orientadoras
+
+::left::
+
+### Para comprender
+
+* ¿Cuál es el problema central?
+* ¿Qué conceptos de la semana permiten analizarlo?
+* ¿Qué información es necesaria para tomar una decisión?
+* ¿Qué criterios deben priorizarse?
+
+::right::
+
+### Para aplicar
+
+* ¿Qué alternativa parece más adecuada?
+* ¿Qué riesgos o limitaciones existen?
+* ¿Cómo se justificaría la decisión?
+* ¿Qué aprendizaje se transfiere a un contexto profesional?
+
 ---
 
-<!--
-Notas del presentador:
-Cerrar con una síntesis de tres ideas centrales, recordar el compromiso académico de la semana e invitar a diligenciar la Encuesta de Percepción Estudiantil cuando aplique.
--->
+## layout: slide-08-titulo-texto
+
+::title::
+Plantilla para listas y revelado progresivo
+
+::content::
+
+<p v-click><strong>Lista no ordenada:</strong></p>
+
+<ul>
+  <li v-click>Puede escribirse con asterisco, guion o HTML.</li>
+  <li v-click>Funciona bien para ideas, criterios y recomendaciones.</li>
+</ul>
+
+<p v-click><strong>Lista ordenada:</strong></p>
+
+<ol>
+  <li v-click>Primer paso.</li>
+  <li v-click>Segundo paso.</li>
+  <li v-click>Tercer paso.</li>
+</ol>
+
+<p v-click><strong>Lista alfabética:</strong></p>
+
+<ol type="A">
+  <li v-click>Primer criterio.</li>
+  <li v-click>Segundo criterio.</li>
+  <li v-click>Tercer criterio.</li>
+</ol>
+
+---
+
+## layout: slide-08-titulo-texto
+
+::title::
+Plantilla para instrucciones con clics
+
+::content::
+
+<p v-click><strong>Instrucciones:</strong></p>
+
+<ol>
+  <li v-click>Leer la situación propuesta por el docente.</li>
+  <li v-click>Identificar los conceptos principales de la semana.</li>
+  <li v-click>Analizar alternativas de solución o interpretación.</li>
+  <li v-click>Socializar una conclusión breve con argumentos.</li>
+</ol>
+
+<p v-click><strong>Producto:</strong> una respuesta breve con criterio, evidencia y conclusión.</p>
+
+---
+
+## layout: slide-11-dos-titulos-dos-columnas
+
+::leftTitle:: <span v-click>Plantilla animación antes del análisis</span>
+
+::rightTitle:: <span v-click>Plantilla animación después del análisis</span>
+
+::left::
+
+<p v-click>En esta columna puedes describir la situación inicial, las ideas previas, los datos disponibles o las condiciones del problema.</p>
+
+<p v-click><strong>Ejemplo:</strong></p>
+
+<ul>
+  <li v-click>Información dispersa.</li>
+  <li v-click>Criterios poco claros.</li>
+  <li v-click>Necesidad de priorización.</li>
+  <li v-click>Dudas frente a la toma de decisiones.</li>
+</ul>
+
+::right::
+
+<p v-click>En esta columna puedes mostrar el resultado esperado después del análisis.</p>
+
+<p v-click><strong>Ejemplo:</strong></p>
+
+<ul>
+  <li v-click>Criterios definidos.</li>
+  <li v-click>Decisiones justificadas.</li>
+  <li v-click>Evidencias organizadas.</li>
+  <li v-click>Conclusiones argumentadas.</li>
+</ul>
+
+---
+
+## layout: slide-12-cierre

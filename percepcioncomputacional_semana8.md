@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 8 — Título semana 8
+title: Percepción Computacional — Semana 8 — Métodos avanzados y cierre del curso
 favicon: /favicon.png
 codeCopy: true
 transition: fade

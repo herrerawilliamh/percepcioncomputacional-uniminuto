@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 1 — Introducción a los sistemas de percepción computacional
+title: Percepción Computacional — Semana 1 — Fundamentos de la percepción computacional
 favicon: /favicon.png
 codeCopy: true
 transition: fade

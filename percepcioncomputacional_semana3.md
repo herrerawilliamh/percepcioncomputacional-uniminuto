@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 3 — Procesamiento inicial de datos con inteligencia artificial
+title: Percepción Computacional — Semana 3 — Procesamiento inicial con inteligencia artificial
 favicon: /favicon.png
 codeCopy: true
 transition: fade

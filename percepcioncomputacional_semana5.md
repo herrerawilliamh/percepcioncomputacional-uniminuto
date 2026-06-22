@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 5 — Técnicas de segmentación de imagen basadas en aprendizaje profundo
+title: Percepción Computacional — Semana 5 — Segmentación de imagen y aprendizaje profundo
 favicon: /favicon.png
 codeCopy: true
 transition: fade

@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Percepción Computacional — Semana 6 — Filtrado y análisis en el dominio de frecuencia con inteligencia artificial
+title: Percepción Computacional — Semana 6 — Filtrado y análisis en frecuencia
 favicon: /favicon.png
 codeCopy: true
 transition: fade

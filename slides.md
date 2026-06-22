@@ -27,7 +27,7 @@ layout: slide-08-titulo-texto
 Descripción general del curso
 
 ::content::
-Durante este curso, usted tendrá la oportunidad de adquirir conocimientos esenciales sobre cómo los sistemas computacionales capturan, procesan y comprenden la información proveniente de diferentes fuentes sensoriales, como imágenes, sonido y datos multivariados.
+Curso orientado al estudio de sistemas de percepción computacional, visión por computador, captura y procesamiento de información, mejora de imagen, segmentación, filtrado, extracción de características e inteligencia artificial aplicada al análisis de imágenes y señales.
 
 ---
 layout: slide-08-titulo-texto
@@ -49,16 +49,48 @@ layout: slide-10-titulo-dos-columnas
 Presentaciones disponibles
 
 ::left::
+### **Semana 1**
+
+<a href="./semanas/percepcioncomputacional_semana1/#/1" target="_self">Fundamentos de la percepción computacional</a>
+
+<a href="./descargas/percepcioncomputacional_semana1.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana1.pptx" download>Descargar PPTX</a>
+
+### **Semana 2**
+
+<a href="./semanas/percepcioncomputacional_semana2/#/1" target="_self">Captura y representación de imágenes y señales</a>
+
+<a href="./descargas/percepcioncomputacional_semana2.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana2.pptx" download>Descargar PPTX</a>
+
+### **Semana 3**
+
+<a href="./semanas/percepcioncomputacional_semana3/#/1" target="_self">Procesamiento inicial con inteligencia artificial</a>
+
+<a href="./descargas/percepcioncomputacional_semana3.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana3.pptx" download>Descargar PPTX</a>
+
+### **Semana 4**
+
+<a href="./semanas/percepcioncomputacional_semana4/#/1" target="_self">Operaciones de mejora de imagen</a>
+
+<a href="./descargas/percepcioncomputacional_semana4.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana4.pptx" download>Descargar PPTX</a>
+
+::right::
+### **Semana 5**
+
+<a href="./semanas/percepcioncomputacional_semana5/#/1" target="_self">Segmentación de imagen y aprendizaje profundo</a>
+
+<a href="./descargas/percepcioncomputacional_semana5.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana5.pptx" download>Descargar PPTX</a>
+
 ### **Semana 6**
 
-<a href="./semanas/percepcioncomputacional_semana6/#/1" target="_self">Filtrado y análisis en el dominio de frecuencia con inteligencia artificial</a>
+<a href="./semanas/percepcioncomputacional_semana6/#/1" target="_self">Filtrado y análisis en frecuencia</a>
 
 <a href="./descargas/percepcioncomputacional_semana6.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana6.pptx" download>Descargar PPTX</a>
 
-::right::
-### Próximamente
+### **Semana 7**
 
-Activa más semanas con `npm run semana -- 2`, `npm run semana -- 3` y así sucesivamente.
+<a href="./semanas/percepcioncomputacional_semana7/#/1" target="_self">Extracción y análisis de características</a>
+
+<a href="./descargas/percepcioncomputacional_semana7.pdf" download>Descargar PDF</a> · <a href="./descargas/percepcioncomputacional_semana7.pptx" download>Descargar PPTX</a>
 
 ---
 layout: slide-12-cierre
