@@ -1,0 +1,14 @@
+@'
+node_modules/
+dist/
+.slidev/
+
+# Archivos generados por exportación Slidev
+public/descargas/*.pdf
+public/descargas/*.pptx
+!public/descargas/.gitkeep
+
+# Reportes y archivos locales
+audit-report.json
+*.zip
+'@ | Set-Content -Encoding UTF8 .\.gitignore

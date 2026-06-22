@@ -1,0 +1,86 @@
+{
+  "course": {
+    "shortName": "percepcioncomputacional",
+    "fullName": "Percepción Computacional",
+    "year": "2026",
+    "description": "Curso orientado al estudio de sistemas de percepción computacional, visión por computador, captura y procesamiento de información, mejora de imagen, segmentación, filtrado, extracción de características e inteligencia artificial aplicada al análisis de imágenes y señales.",
+    "openClassLabel": "Open Class"
+  },
+  "generation": {
+    "weeksTotal": 8,
+    "activeWeeks": [1, 2, 3, 4, 5, 6, 7],
+    "overwriteLaunchers": true,
+    "overwritePortal": true,
+    "overwriteDecks": true,
+    "overwritePackageScripts": true,
+    "overwriteWeekContent": false,
+    "exportPortal": false
+  },
+  "weeks": [
+    {
+      "number": 1,
+      "title": "Fundamentos de la percepción computacional",
+      "date": "2026",
+      "centralTheme": "Introducción a los sistemas de percepción computacional, visión artificial, captura de información y procesamiento inicial de datos.",
+      "activity": "Reconocimiento de componentes y aplicaciones de un sistema de percepción computacional.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 2,
+      "title": "Captura y representación de imágenes y señales",
+      "date": "2026",
+      "centralTheme": "Técnicas de captura, representación digital, resolución, color, señales e información visual para sistemas inteligentes.",
+      "activity": "Análisis de representación digital de imágenes y señales.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 3,
+      "title": "Procesamiento inicial con inteligencia artificial",
+      "date": "2026",
+      "centralTheme": "Procesamiento inicial de datos visuales y señales mediante técnicas computacionales e inteligencia artificial.",
+      "activity": "Identificación de operaciones iniciales de procesamiento aplicadas a imágenes.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 4,
+      "title": "Operaciones de mejora de imagen",
+      "date": "2026",
+      "centralTheme": "Mejora de imagen, contraste, ecualización, reducción de ruido y preparación de datos visuales para análisis posterior.",
+      "activity": "Práctica guiada de mejora y transformación básica de imágenes.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 5,
+      "title": "Segmentación de imagen y aprendizaje profundo",
+      "date": "2026",
+      "centralTheme": "Técnicas de segmentación de imagen, detección de regiones, separación de objetos y aproximaciones basadas en aprendizaje profundo.",
+      "activity": "Análisis de métodos de segmentación en casos visuales aplicados.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 6,
+      "title": "Filtrado y análisis en frecuencia",
+      "date": "Junio 08 de 2026",
+      "centralTheme": "Filtrado espacial y frecuencial, suavizado, realce, detección de bordes y análisis de señales e imágenes.",
+      "activity": "Práctica con operaciones de filtrado y análisis de frecuencia.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 7,
+      "title": "Extracción y análisis de características",
+      "date": "Junio 15 de 2026",
+      "centralTheme": "Extracción de características estadísticas y frecuenciales, análisis de información y métodos avanzados de representación.",
+      "activity": "Foro o práctica sobre propiedades estadísticas y frecuenciales en imágenes y señales.",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 8,
+      "title": "Métodos avanzados y cierre del curso",
+      "date": "2026",
+      "centralTheme": "Métodos avanzados de extracción de características, integración con inteligencia artificial, ética y aplicaciones profesionales.",
+      "activity": "Actividad de cierre sobre análisis computacional de información visual.",
+      "duration": "90 minutos",
+      "status": "draft"
+    }
+  ]
+}
