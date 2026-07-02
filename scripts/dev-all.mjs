@@ -16,7 +16,7 @@ const COLORS = [
   "red.bold",
 ];
 
-const BASE_PORT = 3000;
+const BASE_PORT = 8586;
 
 const weeklyDecks = decks.filter((deck) => deck.entry !== "slides.md");
 

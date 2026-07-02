@@ -1,4 +1,5 @@
 <script setup>
+import { assetUrl } from '../utils/asset-url.js'
 import AutoFitText from '../components/AutoFitText.vue'
 </script>
 
@@ -6,7 +7,7 @@ import AutoFitText from '../components/AutoFitText.vue'
   <div class="portada-layout">
     <img
       class="portada-bg"
-      src="/fondos/slide-01-portada.png"
+      :src="assetUrl('/fondos/slide-01-portada.png')"
       alt="Fondo portada UNIMINUTO"
     />
 

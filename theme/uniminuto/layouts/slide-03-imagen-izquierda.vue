@@ -1,11 +1,12 @@
 <script setup>
+import { assetUrl } from '../utils/asset-url.js'
 import AutoFitText from '../components/AutoFitText.vue'
 import TitleRibbon from '../components/TitleRibbon.vue'
 </script>
 
 <template>
   <div class="slide-layout">
-    <img class="slide-bg" src="/fondos/slide-05-template.png" alt="Fondo institucional" />
+    <img class="slide-bg" :src="assetUrl('/fondos/slide-05-template.png')" alt="Fondo institucional" />
 
     <div class="image-wrap uni-image-slot">
       <slot name="image" />

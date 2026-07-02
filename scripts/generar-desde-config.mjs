@@ -415,7 +415,7 @@ export default decks;
 
 function buildScripts() {
   const scripts = {
-    dev: "slidev slides.md --open --port 3000",
+    dev: "slidev slides.md --open --port 8586",
     config: "node scripts/generar-desde-config.mjs",
     semana: "node scripts/semana.mjs",
     "pages:check": "node scripts/preparar-github-pages.mjs",
@@ -425,7 +425,7 @@ function buildScripts() {
 
   for (let i = 1; i <= weeksTotal; i++) {
     const slug = `${courseShort}_semana${i}`;
-    scripts[`dev:s${i}`] = `slidev ${slug}.md --open --port ${3000 + i}`;
+    scripts[`dev:s${i}`] = `slidev ${slug}.md --open --port 8586`;
   }
 
   scripts.clean = "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"";
@@ -449,16 +449,16 @@ function buildScripts() {
   scripts["export:incremental"] = "node scripts/export-incremental.mjs";
 
   scripts.vista =
-    "npm run config && npm run clean && npm run export:downloads && npm run build:all && http-server dist -p 4173 -c-1 -o";
+    "npm run config && npm run clean && npm run export:downloads && npm run build:all && http-server dist -p 8586 -c-1 -o";
 
   scripts.publicar = "node scripts/publicar.mjs";
   scripts["dev:todo"] = "node scripts/dev-all.mjs";
   scripts.nuevo = "node scripts/nuevo-curso.mjs";
   scripts["zip:template"] = "node scripts/zip-template.mjs";
 
-  scripts["preview:static"] = "npm run config && npm run build:all && http-server dist -p 4173 -c-1";
+  scripts["preview:static"] = "npm run config && npm run build:all && http-server dist -p 8586 -c-1";
   scripts["preview:pages"] =
-    "npm run config && npm run export:downloads && npm run build:all && http-server dist -p 4173 -c-1";
+    "npm run config && npm run export:downloads && npm run build:all && http-server dist -p 8586 -c-1";
 
   scripts["pages:build"] = "npm run config && npm run export:downloads && npm run build:all";
   scripts["pages:preview"] = "npm run preview:pages";

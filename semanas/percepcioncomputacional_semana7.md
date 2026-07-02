@@ -812,3 +812,4 @@ Recuerde también la práctica guiada. Aunque no sea una entrega formal, ejecuta
 
 Finalmente, haga el recordatorio institucional de la Encuesta de Percepción Estudiantil. Explique que este instrumento permite valorar la experiencia del curso, identificar oportunidades de mejora y fortalecer el acompañamiento académico. Invite a diligenciarla con responsabilidad y honestidad. Cierre dejando abierta la posibilidad de plantear dudas por los canales establecidos del curso y motive a los estudiantes a seguir relacionando la percepción computacional con problemas reales de su entorno profesional.
 -->
+

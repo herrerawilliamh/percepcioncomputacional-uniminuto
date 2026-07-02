@@ -1,10 +1,11 @@
 <script setup>
+import { assetUrl } from '../utils/asset-url.js'
 import AutoFitText from '../components/AutoFitText.vue'
 </script>
 
 <template>
   <div class="slide-layout codigo-slide">
-    <img class="slide-bg" src="/fondos/slide-05-template.png" alt="Fondo institucional" />
+    <img class="slide-bg" :src="assetUrl('/fondos/slide-05-template.png')" alt="Fondo institucional" />
 
     <div class="title-wrap">
       <AutoFitText tag="h1" class="title" :min="30" :max="60" line-height="1.04">

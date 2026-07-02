@@ -728,3 +728,4 @@ Filtrado, frecuencia e inteligencia artificial aplicada al análisis visual
 Notas del presentador:
 Agradecer la asistencia y participación. Invitar a los estudiantes a continuar explorando los ejemplos en Python y a relacionar el tema con aplicaciones reales de su campo profesional.
 -->
+
