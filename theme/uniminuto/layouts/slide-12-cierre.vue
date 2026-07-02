@@ -1,8 +1,12 @@
+<script setup>
+import { assetUrl } from '../utils/asset-url.js'
+</script>
+
 <template>
   <div class="slide-layout">
     <img
       class="slide-bg"
-      src="/fondos/slide-06-cierre.png"
+      :src="assetUrl('/fondos/slide-06-cierre.png')"
       alt="Fondo cierre"
     />
   </div>
